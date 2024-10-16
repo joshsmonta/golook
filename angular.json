@@ -25,7 +25,10 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "@angular/material/prebuilt-themes/indigo-pink.css",
+=======
+>>>>>>> f9f5c9d (initial commit)
               "src/styles.css"
             ],
             "scripts": [],
@@ -90,7 +93,10 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "@angular/material/prebuilt-themes/indigo-pink.css",
+=======
+>>>>>>> f9f5c9d (initial commit)
               "src/styles.css"
             ],
             "scripts": []
