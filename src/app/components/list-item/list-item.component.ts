@@ -9,5 +9,9 @@ import { MatCardModule } from '@angular/material/card'
   styleUrl: './list-item.component.css'
 })
 export class ListItemComponent {
-
+  jobPosition = 'Software Developer';
+  company = '';
+  updateTitle(position: string) {
+    this.jobPosition = position
+  }
 }
