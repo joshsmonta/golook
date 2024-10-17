@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MatCardModule } from '@angular/material/card'
 
 @Component({
@@ -9,9 +9,6 @@ import { MatCardModule } from '@angular/material/card'
   styleUrl: './list-item.component.css'
 })
 export class ListItemComponent {
-  jobPosition = 'Software Developer';
-  company = '';
-  updateTitle(position: string) {
-    this.jobPosition = position
-  }
+  @Input() jobPosition = 'Software Developer';
+  @Input() company = 'Codev';
 }

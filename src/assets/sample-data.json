@@ -1,0 +1,67 @@
+[
+    {
+        "listName": "To Apply",
+        "list": [
+            {
+                "position": "Software Engineer",
+                "company": "Tech Solutions Inc."
+            },
+            {
+                "position": "Data Analyst",
+                "company": "Data Insights Ltd."
+            }
+        ]
+    },
+    {
+        "listName": "Interview",
+        "list": [
+            {
+                "position": "Project Manager",
+                "company": "Innovate Corp."
+            },
+            {
+                "position": "UX Designer",
+                "company": "Creative Agency"
+            }
+        ]
+    },
+    {
+        "listName": "Offers",
+        "list": [
+            {
+                "position": "Marketing Specialist",
+                "company": "Brand Builders LLC"
+            },
+            {
+                "position": "Product Owner",
+                "company": "Tech Innovations"
+            }
+        ]
+    },
+    {
+        "listName": "Rejected",
+        "list": [
+            {
+                "position": "Systems Administrator",
+                "company": "Network Solutions"
+            },
+            {
+                "position": "Content Writer",
+                "company": "Write On Media"
+            }
+        ]
+    },
+    {
+        "listName": "Applied",
+        "list": [
+            {
+                "position": "Software Engineer",
+                "company": "Tech Solutions Inc."
+            },
+            {
+                "position": "Data Analyst",
+                "company": "Data Insights Ltd."
+            }
+        ]
+    }
+]

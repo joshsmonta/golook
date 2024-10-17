@@ -1,3 +1,14 @@
-<ul>
-    <app-list-item></app-list-item>
-</ul>
+<div class="example-container">
+    <div
+        cdkDropList
+        [cdkDropListData]="list"
+        class="example-list"
+        (cdkDropListDropped)="drop($event)">
+        @for (item of list; track item) {
+        <app-list-item [jobPosition]=item.position [company]=item.company
+            class="example-box"
+            cdkDrag>
+        </app-list-item>
+        }
+    </div>
+</div>

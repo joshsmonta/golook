@@ -1,7 +1,24 @@
 .cdk-virtual-scroll-data-source-example .example-viewport {
-    height: 650px;
-    width: 1000px;
+    height: 100vh;
+    /* 80% of the viewport height */
+    width: 100vw;
+    /* 90% of the viewport width */
     border: 1px solid black;
+    box-sizing: border-box;
+    /* Ensure border is included in width/height */
+}
+
+.droplist-group {
+    display: flex;
+    flex-direction: row;
+    /* Arrange items horizontally */
+    gap: 10px;
+    /* Optional: Space between items */
+    width: 100%;
+    /* Ensure it spans the viewport width */
+    align-items: center;
+    justify-content: center;
+    /* Align items vertically (optional) */
 }
 
 .cdk-virtual-scroll-data-source-example .example-viewport .cdk-virtual-scroll-content-wrapper {
@@ -9,8 +26,35 @@
     flex-direction: row;
 }
 
-.cdk-virtual-scroll-data-source-example .example-item {
-    width: 50px;
+/* .cdk-virtual-scroll-data-source-example .example-item {
+    writing-mode: horizontal-tb;
+} */
+
+.example-item {
+    display: flex;
+    flex-direction: column;
+    /* Stack the header and content vertically */
+    align-items: center;
+    /* Center-align content */
+    min-width: 150px;
+    /* Width of each item */
     height: 100%;
-    writing-mode: vertical-lr;
+    /* Full height */
+    border: 1px solid gray;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.item-header h2 {
+    margin: 0;
+    text-align: center;
+    /* Center-align the list name */
+    font-size: 18px;
+}
+
+.item-content {
+    flex: 1;
+    /* Make the content take remaining space */
+    width: 100%;
+    /* Ensure content fills the item width */
 }
